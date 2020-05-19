@@ -1,0 +1,847 @@
+/*Estilos Generales*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Helvetica';
+}
+
+body {
+    background: url(../img/backgroundC.png);
+}
+
+a{
+    color: #145416;
+}
+
+a:visited{
+    color: #145416;
+}
+
+a:hover{
+    color: #0e3e10;
+}
+
+.center {
+    text-align: center;
+}
+
+h2{
+    font-family: 'Teko';
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 3%;
+    color: #145416;
+    padding-left:  0%;
+}
+
+h3{
+    font-family: 'Teko';
+    font-weight: 100;
+    font-size: 26px;
+    letter-spacing: 3px;
+    color: black;
+    padding-left: 0%;  
+}
+
+.alert {
+    font-family: 'Teko'!important;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 2%;
+    color: #145416;
+    background: white;
+}
+
+.alertC{
+    font-family: 'Teko'!important;
+    font-size: 24px;
+    text-align: center;
+    margin: 1% 0% 1% 0%;
+}
+
+#sep {
+    text-align: center;
+    margin: 0% 0% 3% 0%;
+    background: #212;
+    padding-bottom: 3%;
+    width: 100%;
+    color: white;
+    border-bottom: 4px solid #145416;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+/*ContainerP*/
+
+#containerM {
+    margin: 0px auto;
+    width: 90%;
+    box-shadow: 0px 0px 10px gray;
+    background: white;
+}
+
+/*Estilos Header*/
+
+#containerM header {
+    height: 145px;
+    background: white;
+    padding-left: 40px;
+}
+
+#logo {
+    margin-right: 20px
+}
+
+#logo a {
+    font-size: 50px;
+    font-family: 'Teko';
+    letter-spacing: 8px;
+    margin-top: 50px;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 1px gray;
+    transition: all 300ms;
+}
+
+#logo a:hover{
+    text-shadow: 0px 2px 1px gray, 0px 0px 4px #145416;
+}
+
+#logopng {
+    width: 260px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+/*Estilos Menu*/
+
+#menu {
+    clear: both;
+    background: #212;
+    color: white;
+    height: 55px;
+    border-bottom: 4px solid #145416;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: 'Teko';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid white;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+
+#menu ul li:hover{
+    background: #145416;
+    box-shadow: 0px 0px 5px #145416;
+}
+
+/*Bloque Principal*/
+
+#content {
+    margin: 0 auto;
+    overflow: hidden;
+    background: white;
+    padding-bottom: 2%;
+    min-height: auto;
+}
+
+#contentR {
+    margin: 2% 5% 10px 5%;
+    background: white;
+    min-height: auto;
+}
+
+
+#contentR form{
+    display: block;
+    text-align: center;
+    background: white;
+}
+
+#contentR input{
+    width: 50%;
+    padding-left: 0%;
+}
+
+
+#contentR input[type=submit],
+#contentR input[type=file],
+select{
+    width: 50%;
+    margin-left: 25%;
+}
+
+/*Barra Lateral*/
+
+#aside {
+    clear: both;
+    float: left;
+    width: 20%;
+    margin-top: 35px;
+    margin-left: 10px;
+    min-height: auto;
+    border-radius: 8px;
+}
+
+#aside .profilePic {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #145416;
+}
+
+#aside ul li{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#aside ul li a,
+#aside ul li p,
+select {
+    display: block;
+    text-decoration: none;
+    font-family: 'Teko';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#aside div a{
+    display: block;
+    font-family: 'Teko';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center
+}
+
+#aside div .name{
+    font-family: 'TeKo';
+    font-weight: blod;
+    font-size: 24px;
+    text-align: center;
+}
+
+#cartAside .blockaside {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#aside ul li{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#cartAside ul li a,
+#cartAside ul li p,
+select {
+    display: block;
+    text-decoration: none;
+    font-family: 'Teko';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*Estilos Formulario*/
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+textarea,
+input[type='email'],
+select {
+    border: 1px solid #145416;
+    box-shadow: 0px 0px 2px #0e3e10 inset;
+    background: white;
+    padding: 2px;
+    color: #145416;
+    transition: all 300ms;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+input[type='email']:focus {
+    border: 1px solid #0e3e10;
+}
+
+input[type='button'],
+input[type='submit'],
+button {
+    display: block;
+    border-radius: 6px;
+    width: auto;
+    margin: 10px 0px 0px 80px;
+    background: #212;
+    color: white;
+    padding: 1px 2px 1px 2px;
+    border-bottom: 2px solid #145416;
+    transition: all 300ms;
+    font-family: 'Teko';
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+input[type='button']:hover,
+input[type='submit']:hover,
+button:hover {
+    box-shadow: 0px 1px 4px #000;
+}
+
+.blockaside form label{
+    display: block;
+    text-align: center;
+}
+
+.vectorInput {
+    clear: both;
+    float: left;
+    margin: 8px 5px 0px 0px;
+    width: 7%;
+    height: 6%;
+    margin-left: 10px;
+}
+
+/*Estilos Container*/
+
+#container {
+    min-height: auto;
+    width: 76%;
+    float: right;
+    margin-right: 2%;
+}
+
+#catBtt {
+    display: block;
+    border-radius: 6px;
+    width: auto;
+    margin: 10px 0px 0px 0px;
+    background: #212;
+    color: white;
+    padding: 1px 2px 1px 2px;
+    border-bottom: 2px solid #145416;
+    transition: all 300ms;
+    font-family: 'Teko';
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+
+/*Estilos Productos*/
+
+h3 a,
+h3 a:visited,
+select {
+    font-family: 'Teko';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-top: 3%;
+    color: black;
+    text-decoration: none;
+}
+
+#formTitle {
+    font-family: 'Teko';
+    font-weight: 100;
+    font-size: 26px;
+    letter-spacing: 3px;
+    color: black;
+    padding-left: 0;
+}
+
+#prodOpBox {
+    margin-top: 3%;
+}
+
+.product {
+    padding: 5px 10px 5px 10px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    margin-top: 3%;
+    width: 25%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+}
+
+.product h2{ 
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Teko';
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-top: 3%;
+}
+
+#container .product h2 a{ 
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: 'Teko';
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-top: 3%;
+}
+
+.product p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Teko';
+    color: #145416;
+}
+
+.buybtn {
+    display: block;
+    padding-left: 0px !important;
+    width: 100% !important;
+    background: #212;
+    color: white;
+    border-bottom: 2px solid #145416;
+    transition: all 300ms;
+    font-family: 'Teko';
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0px;
+    margin: 10px 0px 0px 0px !important;
+}
+
+.product img {
+    display: block;
+    width: 95%;
+    height: 200px;
+    text-align: center;    
+}
+
+option {
+    display: block;
+    text-decoration: none;
+    font-family: 'Teko';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#prodForm {
+    background: white;
+    padding: 2px;
+    color: #145416;
+    transition: all 300ms;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+#prodForm label{
+    font-size: 18px;
+    color:black;
+    transition: all 300ms;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+
+#prodForm input[type='submit'] {
+    display: block;
+    border-radius: 6px;
+    width: 20%;
+    margin: 15px 0px 0px 0px;
+    background: #212;
+    color: white;
+    padding: 1px 2px 1px 2px;
+    border-bottom: 2px solid #145416;
+    transition: all 300ms;
+    font-family: 'Teko';
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#prodForm .profilePic {
+    margin-bottom: 2%;
+    width: 160px;
+    height: 160px;
+    border-radius: 5%;
+    border: 2px solid #145416;
+}
+
+#prodDetail {
+    font-family: 'Teko';
+    font-weight: normal;
+    color: black;
+    font-size: 22px;
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#prodDetail p{
+    font-family: 'Teko';
+    font-weight: normal;
+    color: black;
+    font-size: 24px;
+    padding-right: 5%;
+}
+
+#prodDetail h4{
+    font-family: 'Teko';
+    font-weight: normal;
+    color: #145416; 
+    font-size: 24px;
+    float: left;
+    padding-right: 2%;
+}
+
+
+#prodImg .profilePic {
+    margin-top: 2%;
+    width: 45%;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid #145416;
+    float: right;
+    margin-right: 5%;
+}
+
+#delForm {
+    font-family: 'Teko';
+    font-weight: normal;
+    color: black;
+    font-size: 22px;
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#delForm label{
+    font-family: 'Teko';
+    font-weight: normal;
+    color: black;
+    font-size: 22px;
+}
+
+#delForm span{
+    font-family: 'Teko' !important;
+    font-weight: normal;
+    color: black;
+    font-size: 22px;
+    margin-left: 1%;
+}
+
+#delForm input[type='submit'] {
+    display: block;
+    border-radius: 6px;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    background: #212;
+    color: white;
+    padding: 1px 2px 1px 2px;
+    border-bottom: 2px solid #145416;
+    transition: all 300ms;
+    font-family: 'Teko';
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#buyForm {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    clear: both;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+#buyForm input{
+    width: 30%;
+}
+
+.confirmBttn {
+    display: block;
+    border-radius: 6px;
+    width: 20%;
+    margin-left: 37%;
+    background: #212;
+    color: white !important;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 2px 0px 2px;
+    border-bottom: 2px solid #145416;
+    transition: all 300ms;
+    font-family: 'Teko';
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/*Estilos ShopCart*/
+
+#shopCartTable {
+    margin-top: 2%;
+    width: 95%;
+    text-align: center;
+    border-bottom: 1px solid gray ;
+    border-collapse: collapse;
+}
+
+#shopCartTable th{
+    width: 12%;
+    font-family: 'Teko';
+    font-weight: normal;
+    font-size: 26px;
+    color: white;
+    background-color: #212;
+}
+
+#shopCartTable td {
+    border-bottom: 1px solid gray;
+    font-family: 'Teko';
+    font-size: 24px;
+    padding-top: 2%;
+}
+
+#shopCartTable td strong{
+    border-bottom: 1px solid gray;
+    font-family: 'Teko';
+    font-size: 28px;
+    padding-top: 2%;
+    font-weight: normal;
+    color: #0e3e10;
+}
+
+#shopCartTable td a{
+    text-decoration: none;
+    font-family: 'Teko';
+    font-size: 24px;
+}
+
+
+#shopCartTable img{
+    width: 80%;
+}
+
+
+
+/*Estilos Registro*/
+
+form label{
+    display: block;
+    text-decoration: none;
+    font-family: 'Teko';
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*Estilos vistas*/
+
+#ctgTable {
+    margin-top: 2%;
+    width: 80%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+#ctgTable th{
+    padding-bottom: 2px;
+    font-size: 20px;
+    font-family: 'Teko';
+    color: white;
+    background-color: #212;
+    font-weight: 400;
+    border-bottom: 3px solid white;
+}
+
+#ctgTable tr:nth-child(even){
+    background-color:   #b7b7b7;
+}
+
+#ctgTable td{
+    text-align: center;
+    padding-bottom: 1px;
+    font-family: 'Teko';
+    font-size: 20px;
+}
+
+#ctgTable td a{
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 1px;
+    font-family: 'Teko';
+    font-size: 20px;
+}
+
+/*Estilos Ordenes*/
+
+#orderInf{
+    margin-top: 2%;
+}
+
+#orderInf label{
+    text-align: left;
+}
+
+#orderInf input{
+    margin: 0% 0% 1% 0%;
+    width: 40%;
+}
+
+#orderInf input[type='submit']{
+    margin: 0% 0% 1% 0%;
+    width: 20%;
+    margin-top: 3%;
+}
+
+#orderDetailList{
+    list-style: none;
+    margin-left: 1%;
+}
+
+#orderDetailList ul{
+    list-style: none;
+    margin-left: 1%;
+}
+
+#orderDetailList li{
+    font-family: 'Teko';
+    font-size: 22px;
+    margin-right: 10%;
+}
+
+#orderDetailList li h4{
+    font-family: 'Teko';
+    font-size: 24px;
+    color: #0e3e10;
+    font-weight: normal;
+}
+
+
+
+#orderDetNav{
+    margin-top: 2%;
+    list-style: none;
+}
+
+#orderDetNav ul{
+    list-style: none;
+    margin-left: 1%;
+}
+
+#orderDetNav li{
+    font-family: 'Teko';
+    font-size: 22px;
+    float: left;
+    margin-right: 10%;
+}
+
+#orderDetNav li h4{
+    font-family: 'Teko';
+    font-size: 24px;
+    color: #0e3e10;
+    font-weight: normal;
+}
+
+#modOrderStat{
+    clear: both;
+    padding: 15px 0% 1% 0%;
+}
+
+#modOrderStat select,
+#modOrderStat input[type='submit'] {
+    margin: 1% 0% 0% 0%;
+    width: auto;
+    font-size: 20px;
+}
+
+#modOrderStat label{
+    text-align: left;
+}
+
+#modOrderStat input[type='submit']{
+    text-align: left;
+    border: 1px solid #0e3e10;
+    padding: 0% 2% 0% 2%;
+    color: black;
+    background: white;
+}
+
+#orderDetailTable {
+    margin-top: 2%;
+    width: 95%;
+    text-align: center;
+    border-bottom: 1px solid gray ;
+    border-collapse: collapse;
+}
+
+#orderDetailTable th{
+    width: 12%;
+    font-family: 'Teko';
+    font-weight: normal;
+    font-size: 26px;
+    color: white;
+    background-color: #212;
+}
+
+#orderDetailTable td {
+    border-bottom: 1px solid gray;
+    font-family: 'Teko';
+    font-size: 24px;
+    padding-top: 2%;
+}
+
+#orderDetailTable td a{
+    text-decoration: none;
+    font-family: 'Teko';
+    font-size: 24px;
+}
+
+/*Estilos Pie de Pagina*/
+
+#footer {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    background: #212;
+    color: white;
+    border-top: 4px solid #145416;
+}
+
+#footer p {
+    padding: 4px;    
+}
+
+
